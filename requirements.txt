@@ -1,0 +1,4 @@
+streamlit
+pypdf
+groq
+echo "python-dotenv" >> requirements.txt
