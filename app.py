@@ -242,6 +242,38 @@ html, body, [class*="css"], .stMarkdown {
     pointer-events: none;
     z-index: 0;
 }
+            
+/* === HIDE STREAMLIT BRANDING === */
+.stApp > footer {
+    display: none !important;
+}
+
+[data-testid="stStatusWidget"],
+[data-testid="stToolbar"],
+.viewerBadge_container__1QSob,
+.styles_viewerBadge__1yB5_,
+.viewerBadge_link__1S137,
+.viewerBadge_text__1JaDK {
+    display: none !important;
+}
+
+#MainMenu {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.stDeployButton {
+    display: none !important;
+}
+
+header[data-testid="stHeader"] {
+    background: transparent !important;
+    height: 0 !important;
+}
+
+a[href*="streamlit.io"] {
+    display: none !important;
+}            
 
 .main .block-container {
     position: relative;
