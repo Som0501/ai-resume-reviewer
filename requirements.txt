@@ -1,5 +1,7 @@
+cat > requirements.txt << 'EOF'
 streamlit
 pypdf
 groq
-echo "python-dotenv" >> requirements.txt
-echo "reportlab" >> requirements.txt
+python-dotenv
+reportlab
+EOF
