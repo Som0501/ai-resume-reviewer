@@ -1,7 +1,5 @@
-cat > requirements.txt << 'EOF'
 streamlit
 pypdf
 groq
 python-dotenv
 reportlab
-EOF
