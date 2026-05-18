@@ -106,10 +106,6 @@ The whole app is one file. Intentional — fewer moving parts, easier to read fo
 
 ---
 
-The whole app is one file. Intentional — fewer moving parts, easier to read for someone landing on the repo, no premature abstraction. If this grew (auth, persistence, multi-page), I'd split it.
-
----
-
 ## What I'd add next
 
 If this were a product instead of a portfolio project:
