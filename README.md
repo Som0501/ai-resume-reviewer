@@ -102,3 +102,34 @@ Get a free Groq API key at [console.groq.com](https://console.groq.com).
 ---
 
 ## Project structure
+The whole app is one file. Intentional — fewer moving parts, easier to read for someone landing on the repo, no premature abstraction. If this grew (auth, persistence, multi-page), I'd split it.
+
+---
+
+The whole app is one file. Intentional — fewer moving parts, easier to read for someone landing on the repo, no premature abstraction. If this grew (auth, persistence, multi-page), I'd split it.
+
+---
+
+## What I'd add next
+
+If this were a product instead of a portfolio project:
+- **Caching** — Streamlit's `@st.cache_data` on the LLM call to handle the same CV+JD pair without re-billing
+- **Auth + persistent history** — log in, see past analyses, track score progression as the CV improves
+- **Multi-CV comparison** — upload 2–3 CV versions side by side against the same JD
+- **JD scraper** — paste a LinkedIn or Naukri URL instead of the JD text, scrape it server-side
+
+These are all 1-2 day additions. Skipped for now because the goal was a focused demo, not a SaaS.
+
+---
+
+## About
+
+Built by **[Som Kapoor](https://github.com/Som0501)** — AI practitioner specialising in deep learning and computer vision. Other projects on the [profile](https://github.com/Som0501).
+
+If you found this useful or have feedback, feel free to open an issue or reach out.
+
+---
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
